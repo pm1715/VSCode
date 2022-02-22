@@ -1,0 +1,38 @@
+#id1 {
+  background-image: url("second-bg.jpeg");
+  background-repeat: no-repeat;
+  height: 650px;
+  background-size: cover;
+}
+nav {
+  margin-top: 10px;
+  background-color: rgba(0.1, 0.1, 0.1, 0.1);
+  padding: 30px;
+  height: 90px;
+}
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+li {
+  font-size: 17px;
+  padding: 15px;
+}
+ul {
+  margin-left: 270px;
+}
+.btn1 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 40px;
+}
+.d1 {
+  margin-top: 100px;
+  color: white;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
