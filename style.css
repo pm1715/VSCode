@@ -5,7 +5,7 @@
   background-size: cover;
 }
 nav {
-  margin-top: 10px;
+  margin-top: 0px;
   background-color: rgba(0.1, 0.1, 0.1, 0.1);
   padding: 30px;
   height: 90px;
@@ -15,14 +15,36 @@ nav {
   transition: background-color 200ms linear;
 }
 li {
-  font-size: 17px;
-  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fbfbfb;
+  margin: 15px;
 }
 ul {
-  margin-left: 270px;
+  margin-top: 30px;
+  margin-left: 220px;
 }
 .btn1 {
-  background-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 239, 239, 0.3);
+  border: 0px solid rgba(255, 239, 239, 0.3);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 5px;
+  width: 180px;
+  height: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.btn1:hover {
+  background-color: white;
+  color: black;
 }
 .wrapper {
   display: grid;
@@ -30,9 +52,32 @@ ul {
   padding: 40px;
 }
 .d1 {
-  margin-top: 100px;
+  margin-top: 110px;
   color: white;
 }
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Emergency {
+  background-color: #ff3399;
+  color: white;
+}
+.Emergency:hover {
+  background-color: rgba(0.1, 0.1, 0.1, 0.1);
+  color: white;
+  border: 1px solid white;
+}
+#id2{
+  /* background-color: black; */
+  height: 650px;
+
+}
+.heading{
+text-align: center;
+color: white;
+font-size: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 50px;
+background-color: #861657;
+background-image :linear-gradient(326deg, #861657 0%, #ffa69e 74%);
 }
