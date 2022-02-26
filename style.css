@@ -1,17 +1,29 @@
-/* global variables */
+/* global variables pratik mishra */
 :root{
   --primary-color:#FC4197;
 }
+/* applying border box to all the variables */
+*,*::before,*::after
+{
+  box-sizing: border-box;
+}
 
+body
+{
+  margin: 0;
+  padding: 0;
+}
 
 /* landing page  */
-#id1
+
+#main-section
  {
   background-image: url("second-bg.jpeg");
   background-repeat: no-repeat;
   height: 650px;
   background-size: cover;
 }
+
 nav 
 {
   margin-top: 0px;
