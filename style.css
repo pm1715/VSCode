@@ -1,18 +1,30 @@
-/* global variables pratik mishra */
+/* global variables  */
 :root{
   --primary-color:#FC4197;
+  --secondary-color:#ffffff;
+  --heading-main-color:#454B47;
+  --primary-fade-color:#FD83BB;
 }
 /* applying border box to all the variables */
+
 *,*::before,*::after
 {
   box-sizing: border-box;
 }
+/* the elements goes here */
 
 body
 {
   margin: 0;
   padding: 0;
+  font-family: roboto, sans-serif;
 }
+
+p {
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 /* landing page  */
 
@@ -22,6 +34,8 @@ body
   background-repeat: no-repeat;
   height: 650px;
   background-size: cover;
+  background-position: center;
+
 }
 
 nav 
@@ -31,27 +45,33 @@ nav
   padding: 30px;
   height: 90px;
 }
-.navbar-fixed-top.scrolled {
+
+.navbar-fixed-top.scrolled
+ {
   background-color: black !important;
   transition: background-color 200ms linear;
 }
-li {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+ nav li a {
+  font-family: inherit;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
   line-height: 28px;
   color: #fbfbfb;
   margin: 15px;
+  text-shadow: 0 0 40px #0883f4;
 }
-ul {
+
+ul 
+{
   margin-top: 30px;
   margin-left: 220px;
 }
-.btn1 {
+.share-story 
+{
   background: rgba(255, 239, 239, 0.3);
-  border: 0px solid rgba(255, 239, 239, 0.3);
+  border: none;
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 100px;
@@ -63,47 +83,64 @@ ul {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.btn1:hover {
+
+.share-story:hover
+ {
   background-color: white;
   color: black;
 }
-.wrapper {
+.heading-wrapper {
   display: grid;
   grid-template-columns: 25% 75%;
   padding: 40px;
 }
-.d1 {
+
+/* use this class to assing span to the heading elements */
+.color-fill{
+  color: var(--primary-color);
+}
+
+.main-title
+ {
   margin-top: 110px;
   color: white;
 }
-p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.Emergency {
+
+
+.Emergency 
+{
   background-color: #ff3399;
   color: white;
 }
-.Emergency:hover {
+
+.Emergency:hover 
+{
   background-color: rgba(0.1, 0.1, 0.1, 0.1);
   color: white;
   border: 1px solid white;
 }
-#id2{
+
+.main-paragraph
+{
+  display: none;
+}
+
+/* main body and */
+#body-section{
   /* background-color: black; */
   height: 650px;
 
 }
-.heading{
+.heading
+{
 text-align: center;
-color: white;
+color:var(--heading-main-color);
 font-size: 50px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:inherit;
 padding: 50px;
-background-color: #861657;
-background-image :linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+
 }
 
-.btn1:focus
-{
-  outline: none;
-}
+/* sign up section */
+
+/* footer */
